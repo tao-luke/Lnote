@@ -1,0 +1,141 @@
+.heartBox {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    width: 425px;
+    justify-content: space-between;
+}
+
+.heartBox li {
+    background: #ff1493;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.heartBox li:nth-child(1) {
+    height: 40;
+    animation: li1 4s 0s forwards;
+    animation-timing-function: ease-out;
+    transition: height 2s;
+}
+
+.heartBox li:nth-child(2) {
+    height: 40;
+    animation: li2 4s 0.2s forwards;
+    animation-timing-function: ease-out;
+}
+
+.heartBox li:nth-child(3) {
+    height: 40;
+    animation: li3 4s 0.4s forwards;
+    animation-timing-function: ease-out;
+}
+
+.heartBox li:nth-child(4) {
+    height: 40;
+    animation: li4 4s 0.6s forwards;
+    animation-timing-function: ease-out;
+}
+
+.heartBox li:nth-child(5) {
+    height: 40;
+    animation: li5 4s 0.8s forwards;
+    animation-timing-function: ease-out;
+}
+
+.heartBox li:nth-child(6) {
+    height: 40;
+    animation: li4 4s 0.6s forwards;
+    animation-timing-function: ease-out;
+}
+
+.heartBox li:nth-child(7) {
+    height: 40;
+    animation: li3 4s 0.4s forwards;
+    animation-timing-function: ease-out;
+}
+
+.heartBox li:nth-child(8) {
+    height: 40;
+    animation: li2 4s 0.2s forwards;
+    animation-timing-function: ease-out;
+}
+
+.heartBox li:nth-child(9) {
+    height: 40;
+    animation: li1 4s 0s forwards;
+    animation-timing-function: ease-out;
+}
+
+@keyframes onHover {
+    from {
+        background: #ff1493;
+    }
+    to {
+        background: #ffb6c1;
+    }
+}
+
+@keyframes li1 {
+    0% {
+        transform: translateY(33px);
+    }
+    30%,
+    50% {
+        height: 73px;
+    }
+    70%,
+    100% {
+        height: 73px;
+        transform: translateY(-33px);
+    }
+}
+
+@keyframes li2 {
+    30%,
+    50% {
+        height: 125px;
+    }
+    70%,
+    100% {
+        height: 125px;
+        transform: translateY(-60px);
+    }
+}
+
+@keyframes li3 {
+    30%,
+    50% {
+        height: 175px;
+    }
+    70%,
+    100% {
+        height: 175px;
+        transform: translateY(-80px);
+    }
+}
+
+@keyframes li4 {
+    30%,
+    50% {
+        height: 180px;
+    }
+    70%,
+    100% {
+        height: 180px;
+        transform: translateY(-60px);
+    }
+}
+
+@keyframes li5 {
+    30%,
+    50% {
+        height: 200px;
+    }
+    70%,
+    100% {
+        height: 200px;
+        transform: translateY(-45px);
+    }
+}

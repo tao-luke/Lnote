@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,7 +8,7 @@
 </head>
 
 <body>
-    <header> This is the log page with {{$content}}</header>
+
 </body>
 
 </html>

@@ -14,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('/log', "logController@index");
+Route::get('/log/create', "logController@create");
+Route::get('/log/{id}', "logController@show");
+
+/*
+1) make the form action goto a get for that data id
+2) make the homepage with data selection and submit like above
+3) make a post page and tada 
+
+
+*/
