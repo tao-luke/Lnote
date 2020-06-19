@@ -20,6 +20,19 @@
     transition: height 2s;
 }
 
+.heartBox p {
+    transition: height 0.5s ease-out, transform 0.5s ease-out;
+    background: #ff1493;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.heartBox p:hover {
+    height: 150%;
+    transform: translateY(-21%);
+}
+
 .heartBox li:nth-child(2) {
     height: 40;
     animation: li2 4s 0.2s forwards;
@@ -66,15 +79,6 @@
     height: 40;
     animation: li1 4s 0s forwards;
     animation-timing-function: ease-out;
-}
-
-@keyframes onHover {
-    from {
-        background: #ff1493;
-    }
-    to {
-        background: #ffb6c1;
-    }
 }
 
 @keyframes li1 {

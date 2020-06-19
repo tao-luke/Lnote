@@ -9,11 +9,9 @@
     <link rel="stylesheet" href="/css/heartBack.css">
     <style>
     .dateContainer{
-        justify-content: center;
-        align-items: center;
-        margin-top: 40vh;
-        margin-left: 35vw;
-        width: 25vw;
+        position: relative;
+        width: 200px;
+        z-index: 10;
     }
     .dateUI{
         display: flex;
@@ -33,12 +31,14 @@
             <li></li>
             <li></li>
             <li></li>
+            <li></li>
+            <li></li>
         </ul>
 
     <div id="app"></div>
-
-    </div>
         <script src="{{asset('js/app.js')}}"></script> 
+    </div>
+
 </body>
 
 </html>

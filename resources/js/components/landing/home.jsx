@@ -11,15 +11,33 @@ class Home extends Component {
                     }}
                     className="heartBox"
                 >
-                    <li className="heart"></li>
-                    <li className="heart"></li>
-                    <li className="heart"></li>
-                    <li className="heart"></li>
-                    <li className="heart"></li>
-                    <li className="heart"></li>
-                    <li className="heart"></li>
-                    <li className="heart"></li>
-                    <li className="heart"></li>
+                    <li className="heart">
+                        <p></p>
+                    </li>
+                    <li className="heart">
+                        <p></p>
+                    </li>
+                    <li className="heart">
+                        <p></p>
+                    </li>
+                    <li className="heart">
+                        <p></p>
+                    </li>
+                    <li className="heart">
+                        <p></p>
+                    </li>
+                    <li className="heart">
+                        <p></p>
+                    </li>
+                    <li className="heart">
+                        <p></p>
+                    </li>
+                    <li className="heart">
+                        <p></p>
+                    </li>
+                    <li className="heart">
+                        <p></p>
+                    </li>
                 </ul>
             </div>
         );

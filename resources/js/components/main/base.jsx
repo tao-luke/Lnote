@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "../theme.css";
+
 class Base extends Component {
     constructor() {
         super();
