@@ -11,10 +11,11 @@
     .dateContainer{
         position: relative;
         width: 200px;
-        z-index: 10;
     }
     .dateUI{
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
     .content{

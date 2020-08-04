@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import Home from "./landing/home";
 import navBar from "./navBar";
 import Base from "./main/base";
-import Log from "./note/log";
 import NotFound from "./notFound";
 
 function App() {
@@ -12,12 +11,9 @@ function App() {
         <div className="App">
             <BrowserRouter>
                 <Switch>
-                    <Route
-                        path="/log/:id"
-                        render={props => <Log {...props} />}
-                    ></Route>
                     <Route path="/log" component={Base}></Route>
                     <Route
+                        exact
                         path="/"
                         render={props => <Home {...props} />}
                     ></Route>

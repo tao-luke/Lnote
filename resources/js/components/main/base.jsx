@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "../theme.css";
-
+import Note from "./note";
 class Base extends Component {
     constructor() {
         super();
         this.state = {
             note: [],
-            value: "1"
+            value: "1",
+            current: "",
+            content: ""
         };
     }
     async componentDidMount() {
@@ -20,8 +22,16 @@ class Base extends Component {
     };
     handleSubmit = e => {
         e.preventDefault();
-        this.props.history.push("/log/" + this.state.value);
+        this.getContent();
     };
+    getContent() {
+        this.setState({ current: this.state.value });
+        const data = axios
+            .get("/api/log/" + this.state.value)
+            .then(response => {
+                this.setState({ content: response.data });
+            });
+    }
     render() {
         return (
             <div className="dateContainer">
@@ -46,9 +56,12 @@ class Base extends Component {
                             </select>
                         </div>
                     </div>
-                    <button type="submit" className="btn btn-primary mb-2">
+                    <button type="submit" className="btn btn-success mb-2">
                         Click Me
                     </button>
+                    {this.state.current != "" && (
+                        <Note content={this.state.content}></Note>
+                    )}
                 </form>
             </div>
         );
