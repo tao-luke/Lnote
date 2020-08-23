@@ -15,8 +15,8 @@ class CreateLnoteTable extends Migration
     {
         Schema::create('lnotes', function (Blueprint $table) {
             $table->id();
-            $table->date('date');
             $table->text('note');
+            $table->text('pic')->nullable();
             $table->timestamps();
         });
     }

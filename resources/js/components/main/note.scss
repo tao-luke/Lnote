@@ -1,18 +1,64 @@
 .blockText {
-    width: 300px;
-    height: 400px;
-    background: #fff;
-    box-shadow: 5px 5px 15px rgba($color: #000000, $alpha: 0.4);
-    position: relative;
+	width: 400px;
+	height: 475px;
+	background: #edf7f6;
+	box-shadow: 5px 5px 15px rgba($color: #000000, $alpha: 0.6);
+	position: relative;
+	border-radius: 20px;
+	overflow: hidden;
+}
+img {
+	border-radius: 10%;
+	width: 350px;
+	height: auto;
+	right: 30px;
+	position: relative;
 }
 .side {
-    display: flex;
-    align-items: center;
-    position: relative;
-    button {
-        margin-left: 30px;
-        width: 100px;
-        height: 100px;
-        border-radius: 75%;
-    }
+	display: flex;
+	align-items: center;
+	position: relative;
+	left: -40%;
+	button {
+		margin-left: 30px;
+		width: 100px;
+		height: 100px;
+		border-radius: 75%;
+	}
+}
+.side2 {
+	display: flex;
+	align-items: center;
+	position: relative;
+	border-style: solid;
+	button {
+		margin-left: 30px;
+		width: 100px;
+		height: 100px;
+		border-radius: 75%;
+	}
+}
+label {
+	display: inline-block;
+	margin-bottom: 0.5rem;
+	color: #ffa8b6;
+	font-size: x-large;
+}
+.text-left {
+	top: 5px;
+	left: 10px;
+	bottom: 10px;
+	position: relative;
+	width: 390px;
+	display: inline-block;
+	text-align: justify;
+	white-space: pre-line;
+	overflow-y: auto;
+	height: 98%;
+	font-size: large;
+	color: black;
+}
+.field {
+	position: relative;
+	padding-bottom: 10px;
 }

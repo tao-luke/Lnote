@@ -10,7 +10,7 @@ class logController extends Controller
     public function show($id)
     {
         $note = Lnote::where('id', $id)->first();
-        return $note->note;
+        return $note;
     }
     public function index()
     {

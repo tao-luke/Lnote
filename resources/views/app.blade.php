@@ -5,12 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>template</title> 
+    <title> <3 Fiona</title> 
     <link rel="stylesheet" href="/css/heartBack.css">
     <style>
-    .dateContainer{
-        position: relative;
-        width: 200px;
+    .dateContainer1{
+        position: absolute;
+        width: 20vw;
+        left:40vw;
+        top:40vh;
+    }
+    .dateContainer2{
+        position: absolute;
+        width: 20vw;
+        left:40vw;
+        top:10vh;
     }
     .dateUI{
         display: flex;
