@@ -11,7 +11,7 @@ class Note extends Component {
 					<header />
 					<span className="text-left">{this.props.content.note}</span>
 				</div>
-				<button className="btn btn-info btn-lg " onClick={this.props.onNext}>
+				<button className=" btn btn-lg " onClick={this.props.onNext}>
 					<i className="fa fa-folder" />next
 				</button>
 			</div>

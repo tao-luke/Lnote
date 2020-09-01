@@ -1,64 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Neucha|Cabin+Sketch&display=swap");
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #ff7851;
+    --orange: #fd7e14;
+    --yellow: #ffce67;
+    --green: #56cc9d;
+    --teal: #20c997;
+    --cyan: #6cc3d5;
+    --white: #fff;
+    --gray: #888;
+    --gray-dark: #343a40;
+    --primary: #78c2ad;
+    --secondary: #f3969a;
+    --success: #56cc9d;
+    --info: #6cc3d5;
+    --warning: #ffce67;
+    --danger: #ff7851;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+}
 .blockText {
-	width: 400px;
-	height: 475px;
-	background: #edf7f6;
-	box-shadow: 5px 5px 15px rgba($color: #000000, $alpha: 0.6);
-	position: relative;
-	border-radius: 20px;
-	overflow: hidden;
+    width: 400px;
+    height: 475px;
+    background: #edf7f6;
+    box-shadow: 5px 5px 15px rgba($color: #000000, $alpha: 0.6);
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: "Neucha", -apple-system, system-ui, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 img {
-	border-radius: 10%;
-	width: 350px;
-	height: auto;
-	right: 30px;
-	position: relative;
+    border-radius: 10%;
+    width: 350px;
+    height: auto;
+    right: 30px;
+    position: relative;
 }
 .side {
-	display: flex;
-	align-items: center;
-	position: relative;
-	left: -40%;
-	button {
-		margin-left: 30px;
-		width: 100px;
-		height: 100px;
-		border-radius: 75%;
-	}
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -40%;
+    button {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        border-radius: 75%;
+    }
 }
 .side2 {
-	display: flex;
-	align-items: center;
-	position: relative;
-	border-style: solid;
-	button {
-		margin-left: 30px;
-		width: 100px;
-		height: 100px;
-		border-radius: 75%;
-	}
+    display: flex;
+    align-items: center;
+    position: relative;
+    button {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        border-radius: 75%;
+    }
 }
 label {
-	display: inline-block;
-	margin-bottom: 0.5rem;
-	color: #ffa8b6;
-	font-size: x-large;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: rgba($color: #ffa8b6, $alpha: 1);
+    font-size: x-large;
 }
 .text-left {
-	top: 5px;
-	left: 10px;
-	bottom: 10px;
-	position: relative;
-	width: 390px;
-	display: inline-block;
-	text-align: justify;
-	white-space: pre-line;
-	overflow-y: auto;
-	height: 98%;
-	font-size: large;
-	color: black;
+    top: 5px;
+    left: 10px;
+    bottom: 10px;
+    position: relative;
+    width: 390px;
+    display: inline-block;
+    text-align: justify;
+    white-space: pre-line;
+    overflow-y: auto;
+    height: 98%;
+    font-size: large;
+    color: black;
 }
 .field {
-	position: relative;
-	padding-bottom: 10px;
+    position: relative;
+    padding-bottom: 10px;
 }

@@ -57,7 +57,7 @@ class Base extends Component {
 							</select>
 						</div>
 					</div>
-					<button type="submit" className="btn btn-success mb-2">
+					<button type="submit" className="btn-success mb-2">
 						Click Me
 					</button>
 					{this.state.current != '' && <Note content={this.state.content} onNext={this.handleNext} />}
