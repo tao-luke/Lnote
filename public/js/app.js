@@ -5171,7 +5171,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Neucha|Cabin+Sketch&display=swap);", ""]);
 
 // module
-exports.push([module.i, ":root {\n  --blue: #007bff;\n  --indigo: #6610f2;\n  --purple: #6f42c1;\n  --pink: #e83e8c;\n  --red: #ff7851;\n  --orange: #fd7e14;\n  --yellow: #ffce67;\n  --green: #56cc9d;\n  --teal: #20c997;\n  --cyan: #6cc3d5;\n  --white: #fff;\n  --gray: #888;\n  --gray-dark: #343a40;\n  --primary: #78c2ad;\n  --secondary: #f3969a;\n  --success: #56cc9d;\n  --info: #6cc3d5;\n  --warning: #ffce67;\n  --danger: #ff7851;\n  --light: #f8f9fa;\n  --dark: #343a40;\n  --breakpoint-xs: 0;\n  --breakpoint-sm: 576px;\n  --breakpoint-md: 768px;\n  --breakpoint-lg: 992px;\n  --breakpoint-xl: 1200px;\n  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, \"Segoe UI\",\n      Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif,\n      \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\",\n      \"Noto Color Emoji\";\n  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,\n      \"Liberation Mono\", \"Courier New\", monospace;\n}\n\n.blockText {\n  width: 400px;\n  height: 475px;\n  background: #edf7f6;\n  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);\n  position: relative;\n  border-radius: 20px;\n  overflow: hidden;\n  font-family: \"Neucha\", -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n}\n\nimg {\n  border-radius: 10%;\n  width: 350px;\n  height: auto;\n  right: 30px;\n  position: relative;\n}\n\n.side {\n  display: flex;\n  align-items: center;\n  position: relative;\n  left: -40%;\n}\n.side button {\n  margin-left: 30px;\n  width: 100px;\n  height: 100px;\n  border-radius: 75%;\n}\n\n.side2 {\n  display: flex;\n  align-items: center;\n  position: relative;\n}\n.side2 button {\n  margin-left: 30px;\n  width: 100px;\n  height: 100px;\n  border-radius: 75%;\n}\n\nlabel {\n  display: inline-block;\n  margin-bottom: 0.5rem;\n  color: #ffa8b6;\n  font-size: x-large;\n}\n\n.text-left {\n  top: 5px;\n  left: 10px;\n  bottom: 10px;\n  position: relative;\n  width: 390px;\n  display: inline-block;\n  text-align: justify;\n  white-space: pre-line;\n  overflow-y: auto;\n  height: 98%;\n  font-size: large;\n  color: black;\n}\n\n.field {\n  position: relative;\n  padding-bottom: 10px;\n}", ""]);
+exports.push([module.i, ":root {\n  --blue: #007bff;\n  --indigo: #6610f2;\n  --purple: #6f42c1;\n  --pink: #e83e8c;\n  --red: #ff7851;\n  --orange: #fd7e14;\n  --yellow: #ffce67;\n  --green: #56cc9d;\n  --teal: #20c997;\n  --cyan: #6cc3d5;\n  --white: #fff;\n  --gray: #888;\n  --gray-dark: #343a40;\n  --primary: #78c2ad;\n  --secondary: #f3969a;\n  --success: #56cc9d;\n  --info: #6cc3d5;\n  --warning: #ffce67;\n  --danger: #ff7851;\n  --light: #f8f9fa;\n  --dark: #343a40;\n  --breakpoint-xs: 0;\n  --breakpoint-sm: 576px;\n  --breakpoint-md: 768px;\n  --breakpoint-lg: 992px;\n  --breakpoint-xl: 1200px;\n  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, \"Segoe UI\",\n      Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif,\n      \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\",\n      \"Noto Color Emoji\";\n  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,\n      \"Liberation Mono\", \"Courier New\", monospace;\n}\n\n.blockText {\n  width: 400px;\n  height: 425px;\n  background: #edf7f6;\n  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);\n  top: -30px;\n  position: relative;\n  border-radius: 20px;\n  overflow: hidden;\n  font-family: \"Neucha\", -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n}\n\nimg {\n  border-radius: 10%;\n  width: 350px;\n  height: auto;\n  right: 30px;\n  position: relative;\n  top: 0%;\n}\n\n.side {\n  top: 30px;\n  display: flex;\n  align-items: center;\n  position: relative;\n  left: -40%;\n}\n.side button {\n  margin-left: 30px;\n  width: 100px;\n  height: 100px;\n  border-radius: 75%;\n}\n\n.side2 {\n  top: 30px;\n  display: flex;\n  align-items: center;\n  position: relative;\n}\n.side2 button {\n  margin-left: 30px;\n  width: 100px;\n  height: 100px;\n  border-radius: 75%;\n}\n\nlabel {\n  display: inline-block;\n  margin-bottom: 0.5rem;\n  color: #ffa8b6;\n  font-size: x-large;\n}\n\n.text-left {\n  top: 5px;\n  left: 10px;\n  bottom: 10px;\n  position: relative;\n  width: 390px;\n  display: inline-block;\n  text-align: justify;\n  white-space: pre-line;\n  overflow-y: auto;\n  height: 98%;\n  font-size: large;\n  color: black;\n}\n\n.field {\n  position: relative;\n  padding-bottom: 10px;\n}", ""]);
 
 // exports
 
@@ -72447,18 +72447,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function App() {
-  var _useAuth = Object(_auth0_auth0_react__WEBPACK_IMPORTED_MODULE_4__["useAuth0"])(),
-      user = _useAuth.user,
-      isAuthenticated = _useAuth.isAuthenticated;
-
+  // const { user, isAuthenticated } = useAuth0();
+  // var authed;
+  // if (isAuthenticated && user.email === 'luke4827@gmail.com') {
+  // 	authed = true;
+  // } else {
+  // 	authed = false;
+  // }
   var authed;
-
-  if (isAuthenticated && user.email === 'luke4827@gmail.com') {
-    authed = true;
-  } else {
-    authed = false;
-  }
-
+  authed = true;
   console.log(authed);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "App"
@@ -72492,11 +72489,15 @@ function App() {
   }));
 }
 
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_auth0_auth0_react__WEBPACK_IMPORTED_MODULE_4__["Auth0Provider"], {
-  domain: "ltmoney.us.auth0.com",
-  clientId: "i9u0n8kkY4UAAKHYBRAEE4kaWhaLD5BP",
-  redirectUri: window.location.origin
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null))), document.getElementById('app'));
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(
+/*#__PURE__*/
+// <Auth0Provider
+// 	domain="ltmoney.us.auth0.com"
+// 	clientId="i9u0n8kkY4UAAKHYBRAEE4kaWhaLD5BP"
+// 	redirectUri={window.location.origin}
+// >
+react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null)), // </Auth0Provider>
+document.getElementById('app'));
 
 /***/ }),
 
