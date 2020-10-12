@@ -5171,7 +5171,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Neucha|Cabin+Sketch&display=swap);", ""]);
 
 // module
-exports.push([module.i, ":root {\n  --blue: #007bff;\n  --indigo: #6610f2;\n  --purple: #6f42c1;\n  --pink: #e83e8c;\n  --red: #ff7851;\n  --orange: #fd7e14;\n  --yellow: #ffce67;\n  --green: #56cc9d;\n  --teal: #20c997;\n  --cyan: #6cc3d5;\n  --white: #fff;\n  --gray: #888;\n  --gray-dark: #343a40;\n  --primary: #78c2ad;\n  --secondary: #f3969a;\n  --success: #56cc9d;\n  --info: #6cc3d5;\n  --warning: #ffce67;\n  --danger: #ff7851;\n  --light: #f8f9fa;\n  --dark: #343a40;\n  --breakpoint-xs: 0;\n  --breakpoint-sm: 576px;\n  --breakpoint-md: 768px;\n  --breakpoint-lg: 992px;\n  --breakpoint-xl: 1200px;\n  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, \"Segoe UI\",\n      Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif,\n      \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\",\n      \"Noto Color Emoji\";\n  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,\n      \"Liberation Mono\", \"Courier New\", monospace;\n}\n\n.blockText {\n  width: 400px;\n  height: 425px;\n  background: #edf7f6;\n  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);\n  top: -30px;\n  position: relative;\n  border-radius: 20px;\n  overflow: hidden;\n  font-family: \"Neucha\", -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n}\n\nimg {\n  border-radius: 10%;\n  width: 350px;\n  height: auto;\n  right: 30px;\n  position: relative;\n  top: 0%;\n}\n\n.side {\n  top: 30px;\n  display: flex;\n  align-items: center;\n  position: relative;\n  left: -40%;\n}\n.side button {\n  margin-left: 30px;\n  width: 100px;\n  height: 100px;\n  border-radius: 75%;\n}\n\n.side2 {\n  top: 30px;\n  display: flex;\n  align-items: center;\n  position: relative;\n}\n.side2 button {\n  margin-left: 30px;\n  width: 100px;\n  height: 100px;\n  border-radius: 75%;\n}\n\nlabel {\n  display: inline-block;\n  margin-bottom: 0.5rem;\n  color: #ffa8b6;\n  font-size: x-large;\n}\n\n.text-left {\n  top: 5px;\n  left: 10px;\n  bottom: 10px;\n  position: relative;\n  width: 390px;\n  display: inline-block;\n  text-align: justify;\n  white-space: pre-line;\n  overflow-y: auto;\n  height: 98%;\n  font-size: large;\n  color: black;\n}\n\n.field {\n  position: relative;\n  padding-bottom: 10px;\n}", ""]);
+exports.push([module.i, ":root {\n  --blue: #007bff;\n  --indigo: #6610f2;\n  --purple: #6f42c1;\n  --pink: #e83e8c;\n  --red: #ff7851;\n  --orange: #fd7e14;\n  --yellow: #ffce67;\n  --green: #56cc9d;\n  --teal: #20c997;\n  --cyan: #6cc3d5;\n  --white: #fff;\n  --gray: #888;\n  --gray-dark: #343a40;\n  --primary: #78c2ad;\n  --secondary: #f3969a;\n  --success: #56cc9d;\n  --info: #6cc3d5;\n  --warning: #ffce67;\n  --danger: #ff7851;\n  --light: #f8f9fa;\n  --dark: #343a40;\n  --breakpoint-xs: 0;\n  --breakpoint-sm: 576px;\n  --breakpoint-md: 768px;\n  --breakpoint-lg: 992px;\n  --breakpoint-xl: 1200px;\n  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, \"Segoe UI\",\n      Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif,\n      \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\",\n      \"Noto Color Emoji\";\n  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,\n      \"Liberation Mono\", \"Courier New\", monospace;\n}\n\n.blockText {\n  width: 400px;\n  height: 425px;\n  background: #edf7f6;\n  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);\n  top: -30px;\n  position: relative;\n  border-radius: 20px;\n  overflow: hidden;\n  font-family: \"Neucha\", -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n}\n\nimg {\n  border-radius: 10%;\n  width: 300px;\n  height: auto;\n  right: 30px;\n  position: relative;\n  top: -20px;\n}\n\n.side {\n  top: 30px;\n  display: flex;\n  align-items: center;\n  position: relative;\n  left: -40%;\n}\n.side button {\n  margin-left: 30px;\n  width: 100px;\n  height: 100px;\n  border-radius: 75%;\n}\n\n.side2 {\n  top: 43px;\n  left: 16%;\n  display: flex;\n  align-items: center;\n  position: relative;\n}\n.side2 button {\n  margin-left: 30px;\n  width: 100px;\n  height: 100px;\n  border-radius: 75%;\n}\n\nlabel {\n  display: inline-block;\n  margin-bottom: 0.5rem;\n  color: #ffa8b6;\n  font-size: x-large;\n}\n\n.text-left {\n  top: 5px;\n  left: 10px;\n  bottom: 10px;\n  position: relative;\n  width: 390px;\n  display: inline-block;\n  text-align: justify;\n  white-space: pre-line;\n  overflow-y: auto;\n  height: 98%;\n  font-size: large;\n  color: black;\n}\n\n.field {\n  position: relative;\n  padding-bottom: 10px;\n}", ""]);
 
 // exports
 
@@ -72906,15 +72906,18 @@ var Base = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./resources/js/components/main/image sync recursive ^\\.\\/.*\\.jpg$":
+/***/ "./resources/js/components/main/image sync recursive ^\\.\\/.*\\.png$":
 /*!***************************************************************!*\
-  !*** ./resources/js/components/main/image sync ^\.\/.*\.jpg$ ***!
+  !*** ./resources/js/components/main/image sync ^\.\/.*\.png$ ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./test1.jpg": "./resources/js/components/main/image/test1.jpg"
+	"./june4.png": "./resources/js/components/main/image/june4.png",
+	"./june6.png": "./resources/js/components/main/image/june6.png",
+	"./may24.png": "./resources/js/components/main/image/may24.png",
+	"./test1.png": "./resources/js/components/main/image/test1.png"
 };
 
 
@@ -72935,18 +72938,51 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = "./resources/js/components/main/image sync recursive ^\\.\\/.*\\.jpg$";
+webpackContext.id = "./resources/js/components/main/image sync recursive ^\\.\\/.*\\.png$";
 
 /***/ }),
 
-/***/ "./resources/js/components/main/image/test1.jpg":
+/***/ "./resources/js/components/main/image/june4.png":
 /*!******************************************************!*\
-  !*** ./resources/js/components/main/image/test1.jpg ***!
+  !*** ./resources/js/components/main/image/june4.png ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/test1.jpg?72483fb71f298e9e3c0f601fd9587a35";
+module.exports = "/images/june4.png?58465cf10e8353b89560a72821c09404";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/june6.png":
+/*!******************************************************!*\
+  !*** ./resources/js/components/main/image/june6.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/june6.png?a3fd32462dbefb6c65a2f19fbb1aa468";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/may24.png":
+/*!******************************************************!*\
+  !*** ./resources/js/components/main/image/may24.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/may24.png?7dad902b55916e7d5c90b78dfe10e732";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/test1.png":
+/*!******************************************************!*\
+  !*** ./resources/js/components/main/image/test1.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/test1.png?72483fb71f298e9e3c0f601fd9587a35";
 
 /***/ }),
 
@@ -73011,7 +73047,7 @@ var Note = /*#__PURE__*/function (_Component) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: this.props.content.pic ? 'side' : 'side2'
       }, this.props.content.pic && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: __webpack_require__("./resources/js/components/main/image sync recursive ^\\.\\/.*\\.jpg$")("./".concat(this.props.content.pic, ".jpg"))
+        src: __webpack_require__("./resources/js/components/main/image sync recursive ^\\.\\/.*\\.png$")("./".concat(this.props.content.pic, ".png"))
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "blockText"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
