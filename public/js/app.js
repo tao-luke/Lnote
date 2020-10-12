@@ -72447,16 +72447,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function App() {
-  // const { user, isAuthenticated } = useAuth0();
-  // var authed;
-  // if (isAuthenticated && user.email === 'luke4827@gmail.com') {
-  // 	authed = true;
-  // } else {
-  // 	authed = false;
-  // }
+  var _useAuth = Object(_auth0_auth0_react__WEBPACK_IMPORTED_MODULE_4__["useAuth0"])(),
+      user = _useAuth.user,
+      isAuthenticated = _useAuth.isAuthenticated;
+
   var authed;
-  authed = true;
-  console.log(authed);
+
+  if (isAuthenticated && user.email === 'luke4827@gmail.com') {
+    authed = true;
+  } else {
+    authed = false;
+  }
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "App"
   }, !authed && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_authComp_authButton__WEBPACK_IMPORTED_MODULE_8__["default"], null), authed && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
@@ -72489,15 +72491,11 @@ function App() {
   }));
 }
 
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(
-/*#__PURE__*/
-// <Auth0Provider
-// 	domain="ltmoney.us.auth0.com"
-// 	clientId="i9u0n8kkY4UAAKHYBRAEE4kaWhaLD5BP"
-// 	redirectUri={window.location.origin}
-// >
-react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null)), // </Auth0Provider>
-document.getElementById('app'));
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_auth0_auth0_react__WEBPACK_IMPORTED_MODULE_4__["Auth0Provider"], {
+  domain: "ltmoney.us.auth0.com",
+  clientId: "i9u0n8kkY4UAAKHYBRAEE4kaWhaLD5BP",
+  redirectUri: window.location.origin
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null))), document.getElementById('app'));
 
 /***/ }),
 

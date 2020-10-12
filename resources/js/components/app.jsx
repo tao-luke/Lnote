@@ -10,17 +10,14 @@ import AuthButton from './authComp/authButton';
 import './theme.css';
 
 function App() {
-	// const { user, isAuthenticated } = useAuth0();
+	const { user, isAuthenticated } = useAuth0();
 
-	// var authed;
-	// if (isAuthenticated && user.email === 'luke4827@gmail.com') {
-	// 	authed = true;
-	// } else {
-	// 	authed = false;
-	// }
 	var authed;
-	authed = true;
-	console.log(authed);
+	if (isAuthenticated && user.email === 'luke4827@gmail.com') {
+		authed = true;
+	} else {
+		authed = false;
+	}
 
 	return (
 		<div className="App">
@@ -49,14 +46,14 @@ function App() {
 }
 
 ReactDOM.render(
-	// <Auth0Provider
-	// 	domain="ltmoney.us.auth0.com"
-	// 	clientId="i9u0n8kkY4UAAKHYBRAEE4kaWhaLD5BP"
-	// 	redirectUri={window.location.origin}
-	// >
-	<BrowserRouter>
-		<App />
-	</BrowserRouter>,
-	// </Auth0Provider>
+	<Auth0Provider
+		domain="ltmoney.us.auth0.com"
+		clientId="i9u0n8kkY4UAAKHYBRAEE4kaWhaLD5BP"
+		redirectUri={window.location.origin}
+	>
+		<BrowserRouter>
+			<App />
+		</BrowserRouter>
+	</Auth0Provider>,
 	document.getElementById('app')
 );
