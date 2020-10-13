@@ -5171,7 +5171,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Neucha|Cabin+Sketch&display=swap);", ""]);
 
 // module
-exports.push([module.i, ":root {\n  --blue: #007bff;\n  --indigo: #6610f2;\n  --purple: #6f42c1;\n  --pink: #e83e8c;\n  --red: #ff7851;\n  --orange: #fd7e14;\n  --yellow: #ffce67;\n  --green: #56cc9d;\n  --teal: #20c997;\n  --cyan: #6cc3d5;\n  --white: #fff;\n  --gray: #888;\n  --gray-dark: #343a40;\n  --primary: #78c2ad;\n  --secondary: #f3969a;\n  --success: #56cc9d;\n  --info: #6cc3d5;\n  --warning: #ffce67;\n  --danger: #ff7851;\n  --light: #f8f9fa;\n  --dark: #343a40;\n  --breakpoint-xs: 0;\n  --breakpoint-sm: 576px;\n  --breakpoint-md: 768px;\n  --breakpoint-lg: 992px;\n  --breakpoint-xl: 1200px;\n  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, \"Segoe UI\",\n      Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif,\n      \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\",\n      \"Noto Color Emoji\";\n  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,\n      \"Liberation Mono\", \"Courier New\", monospace;\n}\n\n.blockText {\n  width: 400px;\n  height: 425px;\n  background: #edf7f6;\n  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);\n  top: -30px;\n  position: relative;\n  border-radius: 20px;\n  overflow: hidden;\n  font-family: \"Neucha\", -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n}\n\nimg {\n  border-radius: 10%;\n  width: 300px;\n  height: auto;\n  right: 30px;\n  position: relative;\n  top: -20px;\n}\n\n.side {\n  top: 30px;\n  display: flex;\n  align-items: center;\n  position: relative;\n  left: -40%;\n}\n.side button {\n  margin-left: 30px;\n  width: 100px;\n  height: 100px;\n  border-radius: 75%;\n}\n\n.side2 {\n  top: 43px;\n  left: 16%;\n  display: flex;\n  align-items: center;\n  position: relative;\n}\n.side2 button {\n  margin-left: 30px;\n  width: 100px;\n  height: 100px;\n  border-radius: 75%;\n}\n\nlabel {\n  display: inline-block;\n  margin-bottom: 0.5rem;\n  color: #ffa8b6;\n  font-size: x-large;\n}\n\n.text-left {\n  top: 5px;\n  left: 10px;\n  bottom: 10px;\n  position: relative;\n  width: 390px;\n  display: inline-block;\n  text-align: justify;\n  white-space: pre-line;\n  overflow-y: auto;\n  height: 98%;\n  font-size: large;\n  color: black;\n}\n\n.field {\n  position: relative;\n  padding-bottom: 10px;\n}", ""]);
+exports.push([module.i, ":root {\n  --blue: #007bff;\n  --indigo: #6610f2;\n  --purple: #6f42c1;\n  --pink: #e83e8c;\n  --red: #ff7851;\n  --orange: #fd7e14;\n  --yellow: #ffce67;\n  --green: #56cc9d;\n  --teal: #20c997;\n  --cyan: #6cc3d5;\n  --white: #fff;\n  --gray: #888;\n  --gray-dark: #343a40;\n  --primary: #78c2ad;\n  --secondary: #f3969a;\n  --success: #56cc9d;\n  --info: #6cc3d5;\n  --warning: #ffce67;\n  --danger: #ff7851;\n  --light: #f8f9fa;\n  --dark: #343a40;\n  --breakpoint-xs: 0;\n  --breakpoint-sm: 576px;\n  --breakpoint-md: 768px;\n  --breakpoint-lg: 992px;\n  --breakpoint-xl: 1200px;\n  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, \"Segoe UI\",\n      Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif,\n      \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\",\n      \"Noto Color Emoji\";\n  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,\n      \"Liberation Mono\", \"Courier New\", monospace;\n}\n\n.blockText {\n  width: 400px;\n  height: 425px;\n  background: #edf7f6;\n  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);\n  top: -30px;\n  position: relative;\n  border-radius: 20px;\n  overflow: hidden;\n  font-family: \"Neucha\", -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n}\n\nimg {\n  border-radius: 10%;\n  width: auto;\n  height: 300px;\n  padding-right: 15px;\n  position: relative;\n  top: -40px;\n}\n\n.side {\n  top: 30px;\n  display: flex;\n  align-items: center;\n  position: relative;\n  left: -40%;\n}\n.side button {\n  margin-left: 30px;\n  width: 100px;\n  height: 100px;\n  border-radius: 75%;\n}\n\n.side2 {\n  top: 43px;\n  left: 16%;\n  display: flex;\n  align-items: center;\n  position: relative;\n}\n.side2 button {\n  margin-left: 30px;\n  width: 100px;\n  height: 100px;\n  border-radius: 75%;\n}\n\nlabel {\n  display: inline-block;\n  margin-bottom: 0.5rem;\n  color: #ffa8b6;\n  font-size: x-large;\n}\n\n.text-left {\n  top: 5px;\n  left: 10px;\n  bottom: 10px;\n  position: relative;\n  width: 390px;\n  display: inline-block;\n  text-align: justify;\n  white-space: pre-line;\n  overflow-y: auto;\n  height: 98%;\n  font-size: large;\n  color: black;\n}\n\n.field {\n  position: relative;\n  padding-bottom: 10px;\n}", ""]);
 
 // exports
 
@@ -72447,18 +72447,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function App() {
-  var _useAuth = Object(_auth0_auth0_react__WEBPACK_IMPORTED_MODULE_4__["useAuth0"])(),
-      user = _useAuth.user,
-      isAuthenticated = _useAuth.isAuthenticated;
-
+  // const { user, isAuthenticated } = useAuth0();
+  // var authed;
+  // if (isAuthenticated && user.email === 'luke4827@gmail.com') {
+  // 	authed = true;
+  // } else {
+  // 	authed = false;
+  // }
   var authed;
-
-  if (isAuthenticated && user.email === 'luke4827@gmail.com') {
-    authed = true;
-  } else {
-    authed = false;
-  }
-
+  authed = true;
+  console.log(authed);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "App"
   }, !authed && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_authComp_authButton__WEBPACK_IMPORTED_MODULE_8__["default"], null), authed && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
@@ -72491,11 +72489,15 @@ function App() {
   }));
 }
 
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_auth0_auth0_react__WEBPACK_IMPORTED_MODULE_4__["Auth0Provider"], {
-  domain: "ltmoney.us.auth0.com",
-  clientId: "i9u0n8kkY4UAAKHYBRAEE4kaWhaLD5BP",
-  redirectUri: window.location.origin
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null))), document.getElementById('app'));
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(
+/*#__PURE__*/
+// <Auth0Provider
+// 	domain="ltmoney.us.auth0.com"
+// 	clientId="i9u0n8kkY4UAAKHYBRAEE4kaWhaLD5BP"
+// 	redirectUri={window.location.origin}
+// >
+react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null)), // </Auth0Provider>
+document.getElementById('app'));
 
 /***/ }),
 
@@ -72912,10 +72914,35 @@ var Base = /*#__PURE__*/function (_Component) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
+	"./august10.png": "./resources/js/components/main/image/august10.png",
+	"./august11.png": "./resources/js/components/main/image/august11.png",
+	"./august17.png": "./resources/js/components/main/image/august17.png",
+	"./august27.png": "./resources/js/components/main/image/august27.png",
+	"./august28.png": "./resources/js/components/main/image/august28.png",
+	"./august31.png": "./resources/js/components/main/image/august31.png",
+	"./august4.png": "./resources/js/components/main/image/august4.png",
+	"./august5.png": "./resources/js/components/main/image/august5.png",
+	"./august9.png": "./resources/js/components/main/image/august9.png",
+	"./july10.png": "./resources/js/components/main/image/july10.png",
+	"./july14.png": "./resources/js/components/main/image/july14.png",
+	"./july15.png": "./resources/js/components/main/image/july15.png",
+	"./july16.png": "./resources/js/components/main/image/july16.png",
+	"./july27.png": "./resources/js/components/main/image/july27.png",
+	"./june14.png": "./resources/js/components/main/image/june14.png",
+	"./june17.png": "./resources/js/components/main/image/june17.png",
+	"./june22.png": "./resources/js/components/main/image/june22.png",
+	"./june23.png": "./resources/js/components/main/image/june23.png",
+	"./june24.png": "./resources/js/components/main/image/june24.png",
 	"./june4.png": "./resources/js/components/main/image/june4.png",
+	"./june5.png": "./resources/js/components/main/image/june5.png",
 	"./june6.png": "./resources/js/components/main/image/june6.png",
+	"./may16.png": "./resources/js/components/main/image/may16.png",
 	"./may24.png": "./resources/js/components/main/image/may24.png",
-	"./test1.png": "./resources/js/components/main/image/test1.png"
+	"./may31.png": "./resources/js/components/main/image/may31.png",
+	"./oct11.png": "./resources/js/components/main/image/oct11.png",
+	"./sep21.png": "./resources/js/components/main/image/sep21.png",
+	"./sep28.png": "./resources/js/components/main/image/sep28.png",
+	"./sep8.png": "./resources/js/components/main/image/sep8.png"
 };
 
 
@@ -72940,6 +72967,215 @@ webpackContext.id = "./resources/js/components/main/image sync recursive ^\\.\\/
 
 /***/ }),
 
+/***/ "./resources/js/components/main/image/august10.png":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/main/image/august10.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/august10.png?3554d807b7a08418314745b8200c127b";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/august11.png":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/main/image/august11.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/august11.png?3b5ddfda5d4b31d8204067b32d71cef2";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/august17.png":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/main/image/august17.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/august17.png?311122a5b294d7d9b2c6703624bd3a3e";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/august27.png":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/main/image/august27.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/august27.png?6d9f564780aaf43e46ec9d7a607d58b3";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/august28.png":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/main/image/august28.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/august28.png?d27e8677e2818121c2282ed64415b1d5";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/august31.png":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/main/image/august31.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/august31.png?71e13a1221143c35b084227544c98870";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/august4.png":
+/*!********************************************************!*\
+  !*** ./resources/js/components/main/image/august4.png ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/august4.png?5cc798601fbf4cbc2541e2d237b48aa5";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/august5.png":
+/*!********************************************************!*\
+  !*** ./resources/js/components/main/image/august5.png ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/august5.png?5bfb957dc11087f32ae09708658ffef2";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/august9.png":
+/*!********************************************************!*\
+  !*** ./resources/js/components/main/image/august9.png ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/august9.png?90bed19bec3fd63ee9cd1096075ce2b8";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/july10.png":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/main/image/july10.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/july10.png?bc2eb94ddbd8184c5a9a7339beb2a879";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/july14.png":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/main/image/july14.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/july14.png?6a0676269a3f3a27bf31eb30a337dbd9";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/july15.png":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/main/image/july15.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/july15.png?844a6575b6238da4a09ceac9c3336b8d";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/july16.png":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/main/image/july16.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/july16.png?eb11ccd2a4fec7ca4b083807fc396356";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/july27.png":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/main/image/july27.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/july27.png?ac731723549fb0a2486c0c2d1c40c14c";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/june14.png":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/main/image/june14.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/june14.png?cffca71c34a27009e7f7a723658afe14";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/june17.png":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/main/image/june17.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/june17.png?461c7c79e96cd8f248bf3e8d4462b18a";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/june22.png":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/main/image/june22.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/june22.png?d06293d032b32a9a009200aef94fe950";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/june23.png":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/main/image/june23.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/june23.png?9b2dc8c148235b4df91ec90883909f43";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/june24.png":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/main/image/june24.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/june24.png?b2ae06cbe6cad5109042bf7629c92b27";
+
+/***/ }),
+
 /***/ "./resources/js/components/main/image/june4.png":
 /*!******************************************************!*\
   !*** ./resources/js/components/main/image/june4.png ***!
@@ -72947,7 +73183,18 @@ webpackContext.id = "./resources/js/components/main/image sync recursive ^\\.\\/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/june4.png?58465cf10e8353b89560a72821c09404";
+module.exports = "/images/june4.png?83a09278ab343ce37bd8a3805259d7bb";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/june5.png":
+/*!******************************************************!*\
+  !*** ./resources/js/components/main/image/june5.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/june5.png?b730e7b6eaebc3d633a8eb172bb85360";
 
 /***/ }),
 
@@ -72958,7 +73205,18 @@ module.exports = "/images/june4.png?58465cf10e8353b89560a72821c09404";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/june6.png?a3fd32462dbefb6c65a2f19fbb1aa468";
+module.exports = "/images/june6.png?b7dd777ea2d1a31468a4176b563a64a3";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/may16.png":
+/*!******************************************************!*\
+  !*** ./resources/js/components/main/image/may16.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/may16.png?72483fb71f298e9e3c0f601fd9587a35";
 
 /***/ }),
 
@@ -72969,18 +73227,62 @@ module.exports = "/images/june6.png?a3fd32462dbefb6c65a2f19fbb1aa468";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/may24.png?7dad902b55916e7d5c90b78dfe10e732";
+module.exports = "/images/may24.png?e30142177e7728f5ea9ecb108e1790c7";
 
 /***/ }),
 
-/***/ "./resources/js/components/main/image/test1.png":
+/***/ "./resources/js/components/main/image/may31.png":
 /*!******************************************************!*\
-  !*** ./resources/js/components/main/image/test1.png ***!
+  !*** ./resources/js/components/main/image/may31.png ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/test1.png?72483fb71f298e9e3c0f601fd9587a35";
+module.exports = "/images/may31.png?1fb219ba719b4018daa80b3503262a85";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/oct11.png":
+/*!******************************************************!*\
+  !*** ./resources/js/components/main/image/oct11.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/oct11.png?ac66bd2381de301a8b6e9e5eab443fb4";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/sep21.png":
+/*!******************************************************!*\
+  !*** ./resources/js/components/main/image/sep21.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/sep21.png?8ae2cc6c92c37b2fef2b31bc22b59e77";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/sep28.png":
+/*!******************************************************!*\
+  !*** ./resources/js/components/main/image/sep28.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/sep28.png?c040523cc0de6989d8b26281091e5427";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/sep8.png":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/main/image/sep8.png ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/sep8.png?4997b1acde3014f39340a001a94fd6d2";
 
 /***/ }),
 
