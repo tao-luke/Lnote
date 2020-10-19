@@ -60,7 +60,9 @@ class Base extends Component {
 					<button type="submit" className="btn-success mb-2">
 						Click Me
 					</button>
-					{this.state.current != '' && <Note content={this.state.content} onNext={this.handleNext} />}
+					<div className="changingArea">
+						{this.state.current != '' && <Note content={this.state.content} onNext={this.handleNext} />}
+					</div>
 				</form>
 			</div>
 		);

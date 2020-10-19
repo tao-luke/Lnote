@@ -6,7 +6,13 @@ class Note extends Component {
 	render() {
 		return (
 			<div className={this.props.content.pic ? 'side' : 'side2'}>
-				{this.props.content.pic && <img src={require(`./image/${this.props.content.pic}.png`)} />}
+				{this.props.content.pic ? (
+					<div className="imageHolder">
+						<img src={require(`./image/${this.props.content.pic}.png`)} />
+					</div>
+				) : (
+					<div className="placeholder" />
+				)}
 				<div className="blockText">
 					<header />
 					<span className="text-left">{this.props.content.note}</span>
