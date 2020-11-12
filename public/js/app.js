@@ -72940,6 +72940,7 @@ var map = {
 	"./may24.png": "./resources/js/components/main/image/may24.png",
 	"./may31.png": "./resources/js/components/main/image/may31.png",
 	"./oct11.png": "./resources/js/components/main/image/oct11.png",
+	"./oct25.png": "./resources/js/components/main/image/oct25.png",
 	"./sep21.png": "./resources/js/components/main/image/sep21.png",
 	"./sep28.png": "./resources/js/components/main/image/sep28.png",
 	"./sep8.png": "./resources/js/components/main/image/sep8.png"
@@ -73250,6 +73251,17 @@ module.exports = "/images/may31.png?1fb219ba719b4018daa80b3503262a85";
 /***/ (function(module, exports) {
 
 module.exports = "/images/oct11.png?ac66bd2381de301a8b6e9e5eab443fb4";
+
+/***/ }),
+
+/***/ "./resources/js/components/main/image/oct25.png":
+/*!******************************************************!*\
+  !*** ./resources/js/components/main/image/oct25.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/oct25.png?7d9a984346cd6dd8d3161877c359edaf";
 
 /***/ }),
 
