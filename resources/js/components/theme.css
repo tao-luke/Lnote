@@ -62,7 +62,7 @@
 
 .fade-enter-active {
     opacity: 1;
-    transform: rotate(360deg);
+    /* transform: rotate(360deg); */
     transition: opacity 500ms, transform 300ms;
     transition-timing-function: ease;
 }
@@ -74,7 +74,7 @@
 
 .fade-exit-active {
     opacity: 0;
-    transform: rotate(360deg);
+    /* transform: rotate(360deg); */
     transition: opacity 250ms, transform;
     transition-timing-function: ease;
 }
