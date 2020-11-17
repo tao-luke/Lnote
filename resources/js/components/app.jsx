@@ -13,10 +13,12 @@ function App() {
 	const { user, isAuthenticated } = useAuth0();
 
 	var authed;
-	if (isAuthenticated && (user.email === 'luke4827@gmail.com' || user.email === 'fionayang101@gmail.com')) {
+	if (isAuthenticated && (user.email === 'fionayang101@gmail.com' || user.email === 'luke4827@gmail.com')) {
 		authed = true;
+		console.log(user.email);
 	} else {
 		authed = false;
+		if (user) console.log(user.email);
 	}
 
 	return (
