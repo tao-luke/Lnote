@@ -1,4 +1,4 @@
-![](read.gif)
+![demo of the site](read.gif)
 
 ## About This Project
 
