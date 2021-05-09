@@ -1,3 +1,5 @@
+# Lnote (aka LoveNote)
+
 ![demo of the site](read.gif)
 
 ## About This Project
